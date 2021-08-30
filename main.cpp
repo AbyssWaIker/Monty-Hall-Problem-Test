@@ -27,7 +27,7 @@ unsigned long repeatTestsWithSetSwitch(unsigned number_of_tests, bool b_does_vie
         n_successes += chooseTheDoorTest(b_does_viewer_switch);
     }
 
-    cout << "\rTest are finished!" << endl;
+    cout << "\rTest is finished!" << endl;
 
     return n_successes;
 }
